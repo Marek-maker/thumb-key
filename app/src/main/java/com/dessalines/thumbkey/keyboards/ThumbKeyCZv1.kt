@@ -156,6 +156,7 @@ val THUMBKEY_CZ_V1_MAIN = KeyboardC(
                     color = ColorVariant.PRIMARY,
                 ),
                 //swipeType = SwipeNWay.FOUR_WAY_CROSS,    <<<<--- four-w-cross musí byť vypatý ak chceš 8-smerné swajpovanie
+                //eng.: you have to turn off this in case to allow 8-way swiping, obvious, but new and tricki to me
                 swipes = mapOf(
                     SwipeDirection.LEFT to KeyC(
                         display = KeyDisplay.TextDisplay("l"),
@@ -424,7 +425,7 @@ val THUMBKEY_CZ_V1_SHIFTED = KeyboardC(
                     size = FontSizeVariant.LARGE,
                     color = ColorVariant.PRIMARY,
                 ),
-                //swipeType = SwipeNWay.FOUR_WAY_CROSS,  vid hore
+
                 swipes = mapOf(
                     SwipeDirection.LEFT to KeyC(
                         display = KeyDisplay.TextDisplay("L"),
