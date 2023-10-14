@@ -314,13 +314,13 @@ val THUMBKEY_CZ_V1_SHIFTED = KeyboardC(
                     size = FontSizeVariant.LARGE,
                     color = ColorVariant.PRIMARY,
                 ),
-                        //swipeType = SwipeNWay.TWO_WAY_VERTICAL,
+                swipeType = SwipeNWay.TWO_WAY_VERTICAL,
                 swipes = mapOf(
                     SwipeDirection.BOTTOM to KeyC(
                         display = KeyDisplay.TextDisplay("G"),
                         action = KeyAction.CommitText("G"),
                     ),
-                    SwipeDirection.TOP_RIGHT to KeyC(
+                    SwipeDirection.TOP to KeyC(
                         display = KeyDisplay.TextDisplay("Ŕ"),
                         action = KeyAction.CommitText("Ŕ"),
                     ),
