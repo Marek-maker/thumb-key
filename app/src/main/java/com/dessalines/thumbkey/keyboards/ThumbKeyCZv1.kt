@@ -161,6 +161,14 @@ val THUMBKEY_CZ_V1_MAIN = KeyboardC(
                         display = KeyDisplay.TextDisplay("l"),
                         action = KeyAction.CommitText("l"),
                     ),
+                    SwipeDirection.BOTTOM_LEFT to KeyC(
+                        display = KeyDisplay.TextDisplay("ĺ"),
+                        action = KeyAction.CommitText("ĺ"),
+                    ),
+                    SwipeDirection.TOP_LEFT to KeyC(
+                        display = KeyDisplay.TextDisplay("ľ"),
+                        action = KeyAction.CommitText("ľ"),
+                    ),
                     SwipeDirection.RIGHT to KeyC(
                         display = KeyDisplay.TextDisplay("á"),
                         action = KeyAction.CommitText("á"),
@@ -417,6 +425,14 @@ val THUMBKEY_CZ_V1_SHIFTED = KeyboardC(
                     SwipeDirection.LEFT to KeyC(
                         display = KeyDisplay.TextDisplay("L"),
                         action = KeyAction.CommitText("L"),
+                    ),
+                    SwipeDirection.BOTTOM_LEFT to KeyC(
+                        display = KeyDisplay.TextDisplay("Ĺ"),
+                        action = KeyAction.CommitText("Ĺ"),
+                    ),
+                    SwipeDirection.TOP_LEFT to KeyC(
+                        display = KeyDisplay.TextDisplay("Ľ"),
+                        action = KeyAction.CommitText("Ľ"),
                     ),
                     SwipeDirection.RIGHT to KeyC(
                         display = KeyDisplay.TextDisplay("Á"),
