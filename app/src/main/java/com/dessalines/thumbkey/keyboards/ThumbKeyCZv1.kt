@@ -78,6 +78,10 @@ val THUMBKEY_CZ_V1_MAIN = KeyboardC(
                         display = KeyDisplay.TextDisplay("ú"),
                         action = KeyAction.CommitText("ú"),
                     ),
+                    SwipeDirection.BOTTOM_RIGHT to KeyC(
+                        display = KeyDisplay.TextDisplay("ô"),
+                        action = KeyAction.CommitText("ô"),
+                    ),
                 ),
             ),
             EMOJI_KEY_ITEM,
@@ -327,6 +331,10 @@ val THUMBKEY_CZ_V1_SHIFTED = KeyboardC(
                         display = KeyDisplay.TextDisplay("Ú"),
                         action = KeyAction.CommitText("Ú"),
                     ),
+                    SwipeDirection.BOTTOM_RIGHT to KeyC(
+                        display = KeyDisplay.TextDisplay("Ô"),
+                        action = KeyAction.CommitText("Ô"),
+                    ),
                 ),
             ),
             EMOJI_KEY_ITEM,
@@ -533,7 +541,7 @@ val THUMBKEY_CZ_V1_KEYBOARD_MODES: Map<KeyboardMode, KeyboardC> = mapOf(
 
 
 
-/*
+/*   Pôvodný CZ súbor:
 package com.dessalines.thumbkey.keyboards
 
 import androidx.compose.material.icons.Icons
