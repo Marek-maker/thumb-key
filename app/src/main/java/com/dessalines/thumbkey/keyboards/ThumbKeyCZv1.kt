@@ -155,7 +155,7 @@ val THUMBKEY_CZ_V1_MAIN = KeyboardC(
                     size = FontSizeVariant.LARGE,
                     color = ColorVariant.PRIMARY,
                 ),
-                swipeType = SwipeNWay.FOUR_WAY_CROSS,
+                //swipeType = SwipeNWay.FOUR_WAY_CROSS,    <<<<--- four-w-cross musí byť vypatý ak chceš 8-smerné swajpovanie
                 swipes = mapOf(
                     SwipeDirection.LEFT to KeyC(
                         display = KeyDisplay.TextDisplay("l"),
@@ -164,6 +164,10 @@ val THUMBKEY_CZ_V1_MAIN = KeyboardC(
                     SwipeDirection.RIGHT to KeyC(
                         display = KeyDisplay.TextDisplay("á"),
                         action = KeyAction.CommitText("á"),
+                    ),
+                    SwipeDirection.BOTTOM_RIGHT to KeyC(
+                        display = KeyDisplay.TextDisplay("ä"),
+                        action = KeyAction.CommitText("ä"),
                     ),
                     SwipeDirection.TOP to KeyC(
                         display = KeyDisplay.IconDisplay(Icons.Outlined.ArrowDropUp),
@@ -408,7 +412,7 @@ val THUMBKEY_CZ_V1_SHIFTED = KeyboardC(
                     size = FontSizeVariant.LARGE,
                     color = ColorVariant.PRIMARY,
                 ),
-                swipeType = SwipeNWay.FOUR_WAY_CROSS,
+                //swipeType = SwipeNWay.FOUR_WAY_CROSS,  vid hore
                 swipes = mapOf(
                     SwipeDirection.LEFT to KeyC(
                         display = KeyDisplay.TextDisplay("L"),
@@ -417,6 +421,10 @@ val THUMBKEY_CZ_V1_SHIFTED = KeyboardC(
                     SwipeDirection.RIGHT to KeyC(
                         display = KeyDisplay.TextDisplay("Á"),
                         action = KeyAction.CommitText("Á"),
+                    ),
+                    SwipeDirection.BOTTOM_RIGHT to KeyC(
+                        display = KeyDisplay.TextDisplay("Ä"),
+                        action = KeyAction.CommitText("Ä"),
                     ),
                     SwipeDirection.TOP to KeyC(
                         display = KeyDisplay.IconDisplay(Icons.Outlined.KeyboardCapslock),
