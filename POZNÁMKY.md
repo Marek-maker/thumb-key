@@ -14,3 +14,5 @@ ked dáš spusťiť kompiláciu v android štúdiu a ideš kód odtestovať na f
 potomto kroku klávesnici chvíľku trvá kým sa objavý na obrazovke (samozrejme po vybraní textového poľa kam chceme písať) potomto všetkom by sa mali zmeny prejaviť.
 
 
+ORIGO SK súbor existuje no v tomto mojom forku neni nijak použiteľný - neni vybrateľný v guičku pri výbere jazyka,,,,, preto je v CZ súbore   
+pošlem BOSSovy SK súbor a on ho snád' pridá tak v officiálnej verzii aby bol vybrateľný z guička!
